@@ -13,7 +13,7 @@ import { Logo } from '@/components/Logo'
 
 export function Header() {
   return (
-    <header className="flex h-16 w-full shrink-0 items-center px-4 md:px-6">
+    <header className="flex h-16 w-full shrink-0 items-center px-4 shadow md:px-6">
       <Sheet>
         <SheetTrigger asChild>
           <Button className="lg:hidden" size="icon" variant="outline">
