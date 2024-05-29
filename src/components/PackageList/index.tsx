@@ -37,7 +37,7 @@ export default function PackageList() {
   return (
     <div className="center flex flex-wrap justify-center justify-items-center gap-4">
       {packages.map((pkg, index) => (
-        <Link href={pkg.slug} key={index}>
+        <Link href={`/packages/${pkg.slug}`} key={index}>
           <Card className="rounded-lg bg-white p-4 shadow-md transition-all hover:scale-105 hover:shadow-lg">
             <CardContent className="flex flex-col items-center">
               <Image
